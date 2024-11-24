@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_9</title>
+    <style>
+
+        /* * 代表所有元素 */
+        * {
+            box-sizing: border-box;     /* 所有邊界的寬度被忽略 */
+        }        
+        .container {
+            background-color: grey;
+            height: 100vh;
+        }
+        .box {
+            /* min-width: 25%; 最小寬度，高度也有這個屬性  */
+            /* max-width: 50%; 最大寬度，高度也有這個屬性 */
+            width: 25%;
+            height: 100px;
+            border: 3px solid black;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            第一個盒子
+        </div>
+        <div class="box">
+            第二個盒子
+        </div>
+        <div class="box">
+            第三個盒子
+        </div>
+        <div class="box">
+            第四個盒子
+        </div>
+        <div class="box">
+            第五個盒子
+        </div>
+    </div>
+
+</body>
+</html>

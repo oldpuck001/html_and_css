@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <style>
+
+        /* 字體顏色：color */
+        /* 背景顏色：background-color */
+        #p1 {
+            color: orange;
+        }
+        #p2 {
+            /* red, green, blue */
+            color: rgb(100, 100, 100);
+        }
+        #p3 {
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+        #p4 {
+            /* HSL H 色調 S 飽和度 L 亮度 */
+            color: hsl(100, 75%, 75%);
+        }
+        
+        /* 字體：font-family */
+        /* 字體大小：font-size */
+        /* 字體粗細：font-weight */
+        /* 字體風格：font-style */
+        h1 {
+            font-family: cursive;
+            font-size: 50px;
+            font-weight: normal;    /* bold 粗 */
+        }
+        #p5 {
+            font-family: cursive;
+            font-size: 2em;         /* 1em = 100% */
+            font-weight: 800;
+            font-style: italic;     /* 斜體 */
+        }
+
+        /* Google Font */
+        #p6 {
+            font-family: "Bungee Tint", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        /* Google Font */
+        @font-face {
+            font-family: "Bungee Shade";
+            src: url('./font/BungeeShade-Regular.ttf');
+        }
+        #p7 {
+            font-family: "Bungee Shade";
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 內嵌樣式，css代碼在head中 -->
+
+    <!-- 改變顏色：color -->
+    <p id="p1">段落 1</p>
+    <p id="p2">段落 2</p>
+    <p id="p3">段落 3</p>
+    <p id="p4">段落 4</p>
+
+    <!-- 字體 -->
+    <h1>CodeShiba</h1>
+    <p id="p5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro natus iure, qui vero fugiat eveniet harum incidunt esse explicabo velit, dolor nisi? Illo laboriosam possimus nesciunt debitis itaque saepe suscipit.</p>
+    <p id="p6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, explicabo quae! Accusamus commodi tempore iure obcaecati tenetur sapiente quidem, odit corporis soluta? Necessitatibus consequatur, omnis eligendi quae porro laudantium sunt.</p>
+    <p id="p7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod inventore veniam eaque consequuntur magnam dolore. Et ut hic dicta quisquam, est ducimus voluptatem minus aliquid eius autem consequuntur? Optio!</p>
+
+</body>
+</html>

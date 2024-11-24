@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index_3</title>
+</head>
+<body>
+
+    <!-- 文本輸入框 -->
+    <!-- HTTP助詞 GET、POST、PUT、DELETE -->
+    <form action="xxx.com/index.php" method="post">
+        <label for="username">使用者名稱</label>
+        <input type="text" id="username">
+        <br>
+        <label for="password">密碼</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="提交">
+    </form>
+
+    <br>
+
+    <!-- 文本輸入框：輸入Email -->
+    <form action="xxx.com/index.php" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">密碼</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="提交">
+    </form>
+
+    <br>
+
+    <!-- 文本輸入框：輸入日期 -->
+    <form action="">
+        <label for="">輸入日期</label>
+        <input type="date" name="date" id="date">
+    </form>
+
+    <br>
+
+    <!-- 文本輸入框：輸入數字 -->
+    <form action="">
+        <label for="">輸入數字</label>
+        <input type="number" name="" id="" min="1" max="10">
+    </form>
+
+    <br>
+
+    <!-- 文本輸入框：輸入多行文字 -->
+    <form action="">
+        <label for="textarea">文本輸入框：輸入多行文字</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="50" rows="10"></textarea>
+    </form>
+
+    <br>
+
+    <!-- 單選按鈕 -->
+    <p>單選按鈕</p>
+    <label for="">
+        <input type="radio" name="question1" value="yes">
+        是
+    </label>
+    <br>
+    <label for="">
+        <input type="radio" name="question1" value="no">
+        非
+    </label>
+
+    <br><br>
+
+    <!-- 多選按鈕 -->
+    <p>多選按鈕</p>
+    <form action="">
+        <input type="checkbox" name="question2" id="">
+        <label for="">選項 1</label>
+        <br>
+        <input type="checkbox" name="question2" id="">
+        <label for="">選項 2</label>
+        <br>
+        <input type="submit" value="提交">
+    </form>
+
+    <br><br>
+
+    <!-- 下拉選擇框 -->
+    <p>下拉選擇框</p>
+    <form action="">
+        <select name="" id="">
+            <option value="a">選項 a</option>
+            <option value="b">選項 b</option>
+            <option value="c">選項 c</option>
+        </select>
+        <br>
+        <input type="submit" value="提交">
+    </form>
+
+    <br>
+
+    <!-- 按鈕 -->
+    <button style="color: white; background-color: gray;">按鈕1</button>
+    <br>
+    <button style="border-radius: 5px; color: white; background-color: gray;">按鈕2</button>
+    <br>
+    <!-- 用連結包含按鈕，則點擊按鈕打開連結 -->
+    <a href="https://www.apple.com/">
+        <button>Apple</button>
+    </a>
+
+</body>
+</html>
